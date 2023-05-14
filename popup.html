@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- Import the CSS stylesheet -->
+        <link rel="stylesheet" href="popup.css">
+        <!-- Set the title of the webpage -->
+        <title>Dictionary Extension</title>
+        <!-- Import the JavaScript file -->
+        <script src="popup.js"></script>
+    </head>
+    <body>
+        <!-- Main heading of the webpage -->
+        <h1>Welcome to the Word Wizard &#x1F9D9;&#x200D;&#x2642;&#xFE0F;</h1>
+        <!-- Subheading with instructions for the user -->
+        <p>Enter a word below and the Word Wizard will conjure up its definition:</p>
+        <!-- Input field where user can enter a word to search for -->
+        <input type="text" id="word" placeholder="e.g. abrakazam!" required>
+        <!-- Error message to display if user tries to submit an empty input -->
+        <div id="required"></div>
+        <!-- Button to submit the search query -->
+        <button id="search">Cast Spell</button>
+        <!-- Container to display the search results -->
+        <div id="result"></div>
+        <!-- Disclaimer message -->
+        <p><em>Note: The Word Wizard is not responsible for any unexpected spells </em>&#x1F609;.</p>
+    </body>
+</html>

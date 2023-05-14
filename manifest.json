@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "Word Wizard",
+    "version": "1.0",
+    "description":"A fun and educational Chrome extension designed for children! With Word Wizard, kids can easily look up the definition of any word they come across online. Simply enter the word into the prompt and the extension will open a new tab with the definition. It's a great way to expand vocabulary and encourage a love for learning!",
+    "icons": {
+        "16": "images/icon-16.png",
+        "32": "images/icon-32.png",
+        "48": "images/icon-64.png",
+        "128": "images/icon-128.png"
+    },
+    "browser_action": {
+        "default_icon": "images/icon-16.png",
+        "default_popup": "popup.html",
+        "default_title": "Find word definitions"
+    },
+    "permissions": [
+        "activeTab",
+        "https://*.google.com/"
+    ]
+}
